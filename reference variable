@@ -1,0 +1,15 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+    int a=10;
+    int &x=a;
+    cout<<"x="<<x<<endl;
+    cout<<"x="<<a<<endl;
+    x=95;
+     cout<<"x="<<x<<endl;
+    cout<<"x="<<a<<endl;
+     cout<<"adreess"<<&x<<endl;
+    cout<<"adress"<<&a<<endl;
+
+}
